@@ -3,11 +3,14 @@ Sentiment Analysis of Transportation App Reviews
 This project performs sentiment analysis on transportation application user reviews using a fine-tuned Transformer model (IndoBERT). The goal is to classify reviews into sentiment categories: Positive, Negative, or Neutral.
 
 Code Overview
+
 This code is written in Google Colab and covers the following steps:
 
 Library Installation and Imports: Ensures that all necessary libraries such as pandas, numpy, scikit-learn, transformers, nltk, and Sastrawi are installed.
 
-NLTK Data Download: Downloads data required by NLTK (such as punkt and stopwords) for text pre-processing.
+NLTK Data Download: 
+
+Downloads data required by NLTK (such as punkt and stopwords) for text pre-processing.
 
 Load & Pre-process Dataset:
 
@@ -64,30 +67,17 @@ Sentimen: Contains the sentiment label (Positif, Negatif, Netral) for each revie
 
 Example Data:
 
-Ulasan
+Ulasan                                                    Sentimen
 
-Sentimen
+Aplikasi ini sangat membantu sekali, navigasinya akurat!  Positif
 
-Aplikasi ini sangat membantu sekali, navigasinya akurat!
+Driver sering nyasar, bikin telat terus. Payah!           Negatif
 
-Positif
+Fitur barunya lumayan, tapi loadingnya agak lambat.       Netral
 
-Driver sering nyasar, bikin telat terus. Payah!
+Harga kadang naik terlalu tinggi saat jam sibuk.          Negatif
 
-Negatif
-
-Fitur barunya lumayan, tapi loadingnya agak lambat.
-
-Netral
-
-Harga kadang naik terlalu tinggi saat jam sibuk.
-
-Negatif
-
-Mudah digunakan dan responsif, suka sekali!
-
-Positif
-
+Mudah digunakan dan responsif, suka sekali!               Positif
 
 Export to Sheets
 Libraries Used
